@@ -44,6 +44,31 @@ html {
 .barra li {
   margin: 10px 20px;
 }
+.barra button {
+  box-shadow: 3px 3px 3px 0 #000;
+  border-radius: 5px;
+}
+.barra button:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s;
+  box-shadow: 1px 1px 1px 0 #000;
+}
+.barra button:active {
+  transform: scale(0.8);
+}
+
+p,
+label,
+li {
+  font-size: 15px !important;
+}
+
+.subtitulo {
+  font-size: 20px;
+}
 
 .primera ul {
   margin-top: 0;
@@ -164,6 +189,14 @@ h4.presupuesto {
   justify-content: flex-start;
   text-align: left;
 }
+.fondofooter .nosotros ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.fondofooter .nosotros ul li img {
+  margin-right: 10px;
+}
 .fondofooter .nosotros span {
   padding-left: 25px;
 }
@@ -263,7 +296,7 @@ li.texto {
   display: flex;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .logo {
     display: flex;
     justify-content: center;
@@ -285,26 +318,64 @@ li.texto {
   .barra button {
     padding: 0px 15px;
     margin: 0 auto;
+    margin-bottom: 10px;
     width: 95%;
     margin-bottom: 10px;
     /* Ajusta el padding para cambiar el tamaño de los botones en vista móvil */
     font-size: 18px;
     /* Ajusta el tamaño de la fuente para los botones en vista móvil */
   }
+  .barra button:hover {
+    transform: scale(1);
+  }
   .barra button:nth-child(1) {
     margin-top: 10px;
   }
   .barra button:nth-child(1) {
     margin-top: 10px;
+  }
+  .evento ul {
+    justify-content: center;
   }
   .fondofooter {
     grid-template-columns: auto;
+  }
+  .fondofooter .evento li {
+    display: flex;
+    justify-content: center;
   }
   .fondofooter .redessociales ul {
     display: flex;
     flex-direction: column;
     /* Apila los íconos de redes sociales verticalmente */
     gap: 5px;
+  }
+  .fondofooter .redessociales {
+    margin: 5% 5%;
+  }
+  .fondofooter img {
+    height: 50px;
+    width: 50px;
+  }
+  .fondofooter .evento {
+    margin: 5% 5%;
+  }
+  .fondofooter .entreamigos {
+    margin: 10px;
+  }
+  .fondofooter .entreamigos img {
+    height: 150px;
+    width: 150px;
+  }
+  .fondofooter .nosotros {
+    margin: 5% 5%;
+  }
+  .fondofooter .nosotros img {
+    height: 50px;
+    width: 50px;
+  }
+  .fondofooter .nosotros ul {
+    margin-left: 18%;
   }
   .cuerpo h4 {
     margin: 0;
