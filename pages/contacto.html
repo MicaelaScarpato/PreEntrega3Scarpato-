@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PreEntregal Scarpato</title>
+    <title>PreEntrega3 Scarpato</title>
     <link rel="stylesheet" href="../css/final-styles.css">
 </head>
 
@@ -39,14 +39,14 @@
             <h1 class="presupuesto">FORMULARIO DE PRESUPUESTO</h1>
             <form action="procesar_formulario.php" method="post">
                 <label for="nombre">Nombre del cumplañero/ra:</label>
-                <input type="text" id="nombre" name="nombre" required><br><br>
+                <input type="text" id="nombre" name="nombre" required><br>
 
                 <label for="edad">Edad:</label>
-                <input type="age" id="edad" name="edad" required><br><br>
+                <input type="age" id="edad" name="edad" required><br>
 
                 <form action="procesar_formulario.php" method="post">
                     <label for="fecha"> Dia y fecha que quiere festejar el cumpleaños:</label>
-                    <input type="date" id="fecha" name="fecha"><br><br>
+                    <input type="date" id="fecha" name="fecha"><br>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required><br><br>
                 </form>
@@ -85,10 +85,13 @@
                 <label for="opcion3">pizza especiales ($40.000)</label><br>
                 <input type="checkbox" id="opcion4" name="opciones[]" value="opcion4">
                 <label for="opcion4">Sanguches de J y Q ($30.000)</label><br>
-                <h2>ALGUNA OTRA PREGUNTA....</h2>
+                <h2>ALGUNA OTRA PREGUNTA..</h2>
                 <label for="mensaje"></label><br>
                 <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
                 <input type="submit" value="Enviar" class="enviar">
+                <div class="logo-footer">
+                    <img src="../assets/logo pagina.png">
+                </div>
         </section>
     </main>
     <footer class="fondofooter">

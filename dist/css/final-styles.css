@@ -1,0 +1,360 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  background-color: rgb(221, 220, 222);
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 170px auto auto 160px;
+}
+
+.fondo {
+  position: relative;
+  margin-bottom: -4px;
+  width: 100%;
+  object-fit: cover;
+}
+.fondo img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.logo img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.barra {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(192, 163, 219);
+  margin: 0;
+}
+.barra li {
+  margin: 10px 20px;
+}
+.barra button {
+  box-shadow: 3px 3px 3px 0 #000;
+  border-radius: 5px;
+}
+.barra button:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s;
+  box-shadow: 1px 1px 1px 0 #000;
+}
+.barra button:active {
+  transform: scale(0.8);
+}
+
+p,
+label,
+li,
+.subtitulo,
+h1.presupuesto,
+h4.titulo,
+li.texto {
+  text-align: center;
+}
+
+p,
+label,
+li {
+  font-size: 15px !important;
+}
+
+.subtitulo,
+h4.titulo {
+  font-size: 20px;
+}
+
+.pagina-2 img.cumple-tartas {
+  text-align: center;
+  list-style: none;
+}
+
+ul.pagina-2 {
+  list-style: none;
+  padding-right: 40px;
+}
+
+.cumple-imagenes,
+.imagenes-evento,
+.animadores {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20px 20px;
+}
+.cumple-imagenes img,
+.imagenes-evento img,
+.animadores img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo-footer img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.imagenes-evento-chicos {
+  margin-top: 20px;
+  display: flex;
+}
+.imagenes-evento-chicos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img.cumple-tartas {
+  width: 40%;
+  position: relative;
+}
+
+.primera ul,
+.cuerpo ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.cuerpo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.cuerpo h4 {
+  margin: 0;
+}
+.cuerpo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cuerpo .primera {
+  background-color: rgb(236, 141, 207);
+}
+
+.formulario1,
+.formulario2,
+.formulario3 {
+  background-color: rgb(236, 141, 207);
+  font-size: 15px;
+  padding: 15px;
+}
+.formulario1 h4,
+.formulario2 h4,
+.formulario3 h4 {
+  margin: 0;
+  padding: 17px;
+  font-size: 20px;
+}
+
+.formulario1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.fondofooter {
+  background-color: rgb(187, 122, 247);
+  width: 100%;
+  height: fit-content;
+  left: 0%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.fondofooter .evento,
+.fondofooter .entreamigos,
+.fondofooter .nosotros,
+.fondofooter .redessociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10% 15%;
+  text-align: center;
+}
+.fondofooter .evento ul,
+.fondofooter .entreamigos ul,
+.fondofooter .nosotros ul,
+.fondofooter .redessociales ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 0;
+  font-weight: bold;
+}
+.fondofooter .evento ul li,
+.fondofooter .entreamigos ul li,
+.fondofooter .nosotros ul li,
+.fondofooter .redessociales ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  text-decoration: none;
+  list-style: none;
+}
+.fondofooter .evento ul li img,
+.fondofooter .entreamigos ul li img,
+.fondofooter .nosotros ul li img,
+.fondofooter .redessociales ul li img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.fondofooter .evento h1,
+.fondofooter .entreamigos h1,
+.fondofooter .nosotros h1,
+.fondofooter .redessociales h1 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.fondofooter .evento span,
+.fondofooter .entreamigos span,
+.fondofooter .nosotros span,
+.fondofooter .redessociales span {
+  padding-left: 3px;
+}
+.fondofooter .evento img,
+.fondofooter .entreamigos img,
+.fondofooter .nosotros img,
+.fondofooter .redessociales img {
+  height: 20px;
+  width: 20px;
+  top: -3px;
+}
+.fondofooter .entreamigos img {
+  margin: 0 auto;
+  width: 70px;
+  height: 65px;
+  object-fit: cover;
+}
+.fondofooter .nosotros ul {
+  margin-left: 18%;
+}
+
+.redessociales img,
+.redessociales li {
+  display: inline;
+}
+.redessociales img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.primero {
+  background-color: rgb(236, 141, 207);
+}
+
+.informacion p {
+  margin: 20px 14px 16px 20px;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .pagina-2 img.cumple-tartas,
+  img.cumple-lugar,
+  img.cumple-maquillaje,
+  img.cumple-pochoclo,
+  img.cumple-animacion,
+  img.cumple-robot,
+  img.cumple-cabina,
+  img.cumple-pizza,
+  img.cumple-panchos,
+  img.cumple-medialuna,
+  img.cumple-sanguche,
+  img.cumple-hamburguesa,
+  img.cumple-pizzas,
+  img.cumple-tartas {
+    width: 87%;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .barra {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .barra li {
+    margin: -8px 0;
+  }
+  .barra button {
+    padding: 0px 15px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 95%;
+    font-size: 18px;
+  }
+  .barra button:hover {
+    transform: scale(1);
+  }
+  .barra button:nth-child(1) {
+    margin-top: 10px;
+  }
+  .fondofooter {
+    grid-template-columns: auto;
+  }
+  .fondofooter .evento li,
+  .fondofooter .redessociales ul {
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .fondofooter .redessociales,
+  .fondofooter .evento {
+    margin: 5% 5%;
+  }
+  .fondofooter img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .fondofooter .entreamigos img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .fondofooter .nosotros img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .cuerpo h4,
+  .formulario1 h4.presupuesto,
+  .formulario2 h4.servicios,
+  .formulario3 h4.adicionales {
+    padding: 17px 0px;
+  }
+  img.disfraz {
+    width: 100%;
+  }
+}
+.pagina1 img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=final-styles.css.map */
